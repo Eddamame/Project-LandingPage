@@ -3,11 +3,9 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-H1 p .btn {
-    font-family: "Roboto", san-serif;
-}
 
 #navybg {
     background-color: #001540;
@@ -51,8 +49,8 @@ button#SU {
     background-color: #1591EA;
     color: white;
     border-radius: 10px;
-    height: 40px;
-    width: 90px;
+    height: 30px;
+    width: 110px;
 }
 
 
@@ -120,8 +118,8 @@ button#SU {
     color: white;
     background-color: #1591EA;
     margin-left:120px;
-    height: 40px;
-    width: 90px;
+    height: 30px;
+    width: 110px;
     border-radius: 10px;
 }
 
