@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+H1 p .btn {
+    font-family: "Roboto", san-serif;
+}
+
+#navybg {
+    background-color: #001540;
+    color: white; 
+}
+
+#logo {
+    display: block;
+    justify-content: flex-start;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0; 
+    margin-right: 300px;
+    margin-top: -10px;
+    gap: 20px;
+}
+
+hero {
+    margin-left: 150px;
+    display: flex; 
+    margin-top: 60px; 
+    margin-bottom: 50px;
+}
+
+#herotext {
+    width: 550px;
+    text-wrap: wrap;
+}
+
+#heropic {
+    margin-left: 200px; 
+    
+}
+
+button#SU {
+    background-color: navy;
+    color: white;
+}
+
+
+
