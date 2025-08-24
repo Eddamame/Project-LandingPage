@@ -48,8 +48,11 @@ hero {
 }
 
 button#SU {
-    background-color: navy;
+    background-color: #1591EA;
     color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
 }
 
 
@@ -65,8 +68,9 @@ button#SU {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+
 }
+
 
 .blankbox 
 {
@@ -77,4 +81,59 @@ button#SU {
     margin: 10px;
     outline: 5px navy;
     color: white;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    background-color: lightgray;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+#quotes {
+    width: 900px;
+    text-wrap: wrap;
+}
+
+.cta {
+    display: flex; 
+    justify-content: center;
+    padding: 160px 80px ; 
+}
+
+#bluebox {
+    background-color:#1591EA;
+    height: 200px;
+    width: 1200px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup {
+    border: solid 2px white;
+    color: white;
+    background-color: #1591EA;
+    margin-left:120px;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+#ctatext {
+    margin-right: 120px; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001540;
+    height: 100px;
+    color:white; 
 }
